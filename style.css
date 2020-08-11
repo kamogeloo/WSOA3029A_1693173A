@@ -11,12 +11,15 @@ body{
 
 .logo{
     font-style: italic;
-    font-size: xx-large;
+    font-size: 25px;
 }
 
 .logo, .menucontainer {
-    margin-top:0;
+    margin-top:0px;
     position: fixed;
+    padding: 20px;
+    background-color: rgb(61, 61, 61);
+    width:100%;
 
 }
 
@@ -24,6 +27,7 @@ body{
      list-style: none;
      display: inline-block;
      text-decoration: none;
+     
          
 }
 
@@ -35,19 +39,22 @@ body{
 
 
 .menu a{
+    text-decoration: none;
+  align-content: center;
     font-weight: bolder;
-    font-size: large;
-    background-color: black;
+    font-size: 17px;
+    background-color: rgb(59, 59, 59);
     color: white;
     float: left;
     display: block;
-    text-align: center;
-    border: 1px solid white;
+   
+    /*border: 1px solid white;*/
     padding: 10px 50px;
+    width: 100%;
 }
 
 .menu a:hover{
-    background-color: rgb(75, 72, 72);
+    background-color: rgb(131, 128, 128);
 }
 
 #top , #middle, #bottom{
@@ -71,7 +78,7 @@ h1{
     text-align: center;
 }
 
-p{
+.text{
     font-size: medium;
     display: block;
     text-align: center;
@@ -79,4 +86,10 @@ p{
     margin-right: 20%;
     margin-top: 10%;
 
+}
+.header{
+    margin-top: 10%;
+}
+.lala{
+    color: black;
 }
